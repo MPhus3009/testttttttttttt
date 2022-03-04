@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon server.js"
   },
   "author": "Minh Phu",
   "license": "ISC",
@@ -20,5 +20,8 @@
     "url": "https://github.com/MPhus3009/nodejs/issues"
   },
   "homepage": "https://github.com/MPhus3009/nodejs#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
